@@ -1,18 +1,18 @@
 # Portfolio
 
 # VR assymetric collaboration maze game in Unity: "Hedged-in"
-Together with a team, I was a part in creating an assymetric collaboration VR game. The person in VR needs to escape from the maze, and their partner needs to guide them out by opening ans closing certain walls, luring away monsters, and guiding their partner through the maze. I was in charge of creating the hedge, which I did using shell texturing, with a custom shader.
+Together with a team, I created this assymetric collaboration VR game. The person in VR needs to escape from the maze, and their partner needs to guide them out by opening ans closing certain walls, luring away monsters, and guiding their partner through the maze. I was in charge of creating the hedge, which I did using shell texturing, with a custom shader. For this project we used Unity URP. 
 ![image](https://github.com/user-attachments/assets/1e5d1228-fbe2-4cae-94b9-55cf45613baa)
 ![image](https://github.com/user-attachments/assets/e746166c-9854-4e04-89b5-c20e9a1aeedd)
 <img width="1500" height = "500" src="https://github.com/user-attachments/assets/2096543c-ac8d-4974-b440-7d58026422b9">
 
 # Shell texturing bunny
-I have also used shell texturing for rendering fur! It uses a simple Blinn-Phong shading model.
+I have also used shell texturing for rendering fur with the Blinn-Phong shading model.
 <img width="700" height = "500" src="https://github.com/user-attachments/assets/f6228368-8caa-4f7b-9759-22f59c56419f">
 <img width="700" height = "500" src="https://github.com/user-attachments/assets/7f006e3a-7460-49d5-944c-dfd906205ac0">
 
 # Raytracer in Unity
-I have created my own custom raytracer in Unity, using a shader. I also implemented a BVH to increase performance.  
+I have created my own custom raytracer with a simple Lambertian diffuse. For this project, I used Unity and a custom shader. I also implemented a BVH to increase performance.  
 <img width="800" height = "500" src="https://github.com/user-attachments/assets/8c05efb1-ee02-4f91-bbda-47a7807b0840">
 <img width="800" height = "500" src="https://github.com/user-attachments/assets/9869dd35-ca87-44bc-b34e-f42297356cf1">
 
