@@ -1,4 +1,5 @@
 # Portfolio
+Hello, my name is Erica, welcome to my portfolio! Here I have gathered some of the most important things I've done in computer graphics and game development. Take a look:)
 
 # VR asymetric collaboration maze game in Unity: "Hedged-in"
 Together with a team, I created this asymetric collaboration VR game. The person in VR needs to escape from the maze, and their partner needs to guide them out by opening and closing certain walls, luring away monsters, and guiding their partner through the maze. I was in charge of creating the hedge, which I did using shell texturing, with a custom shader. For this project we used Unity URP. 
