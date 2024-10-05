@@ -14,7 +14,7 @@ I have also used shell texturing for rendering fur with the Blinn-Phong shading 
 
 # Raytracer in Unity
 I have created my own custom raytracer with bounce lighting. For this project, I used Unity and a custom shader. I also implemented a BVH to increase performance.  
-![image](https://github.com/user-attachments/assets/ba1d48a3-7f5c-4f84-bc13-70630e3b08f8)
+![image](https://github.com/user-attachments/assets/0019eefb-d641-41f6-b248-679926408a88)
 <img width="800" height = "500" src="https://github.com/user-attachments/assets/8c05efb1-ee02-4f91-bbda-47a7807b0840">
 
 # Bachelor's thesis: ["Comparison between Smoothed-Particle Hydrodynamics and Position Based Dynamics for real-time water simulation"](https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-335984)
