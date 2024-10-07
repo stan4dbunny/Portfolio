@@ -1,0 +1,29 @@
+title: Erica Tjernell
+description: My portfolio
+author: "Erica Tjernell"
+
+github_username:  stan4dbunny
+
+url: "https://stan4dbunny.github.io/Portfolio/"
+
+plugins:
+  - jekyll-coffeescript
+  - jekyll-default-layout
+  - jekyll-gist
+  - jekyll-github-metadata
+  - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
+  - jekyll-relative-links
+  - jekyll-remote-theme
+
+include:
+  - README.md
+
+#theme: minima
+remote_theme: jekyll/minima
+
+minima:
+  skin: dark
+  date_format: "%Y-%m-%d"
