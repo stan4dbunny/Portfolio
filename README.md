@@ -1,4 +1,4 @@
-Hello, my name is Erica and I'm a 5th year KTH student in computer science with specialisation in computer graphics and visualisation, welcome to my portfolio! Here I have gathered some of the most important things I've done in computer graphics and game development. Take a look:)
+Hello, my name is Erica and I'm a master student in computer science with specialisation in computer graphics and visualisation at KTH Royal Institute of Technology. Welcome to my portfolio! Here I have gathered some of the most important things I've done in computer graphics and game development. Take a look:)
 
 # Contact information
 Email: ericat@telia.com
