@@ -11,16 +11,15 @@ Together with a team, I created this asymetric collaboration VR game. The person
 ![image](https://github.com/user-attachments/assets/e746166c-9854-4e04-89b5-c20e9a1aeedd)
 ![hedge](https://github.com/user-attachments/assets/fd9e75f7-2d38-411d-a4b9-3386dfe8a379)
 
+# Path/Raytracer in Unity
+I have created my own custom raytracer with bounce lighting. For this project, I used Unity and a custom shader. I also implemented a BVH to increase performance, and temporal accumulation to make it less noisy.
+![image](https://github.com/user-attachments/assets/39170875-df9f-41e6-83ee-001a97c0cf93)
+<img width="800" height = "500" src="https://github.com/user-attachments/assets/8c05efb1-ee02-4f91-bbda-47a7807b0840">
 
 # Shell texturing bunny
 I have also used shell texturing for rendering fur with the Blinn-Phong shading model, but I would like to use a more sophisticated shading model in the future. Currently, the strands will not shade each other, which would improve the look. Additionally, in real life hairs are slightly transparent which can have effects such as subsurface scattering. This would be cool to implement as well.
 <img width="700" height = "500" src="https://github.com/user-attachments/assets/f6228368-8caa-4f7b-9759-22f59c56419f">
 <img width="700" height = "500" src="https://github.com/user-attachments/assets/7f006e3a-7460-49d5-944c-dfd906205ac0">
-
-# Path/Raytracer in Unity
-I have created my own custom raytracer with bounce lighting. For this project, I used Unity and a custom shader. I also implemented a BVH to increase performance, and temporal accumulation to make it less noisy.
-![image](https://github.com/user-attachments/assets/39170875-df9f-41e6-83ee-001a97c0cf93)
-<img width="800" height = "500" src="https://github.com/user-attachments/assets/8c05efb1-ee02-4f91-bbda-47a7807b0840">
 
 # Bachelor's thesis: ["Comparison between Smoothed-Particle Hydrodynamics and Position Based Dynamics for real-time water simulation"](https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-335984)
 My bachelor's thesis was centered around comparing two implementations of two particle-based fluid simulations, in regard to performance and stability. We translated existing implementations into Unity to make a more valid comparison.
