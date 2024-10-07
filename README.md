@@ -1,5 +1,10 @@
 Hello, my name is Erica, welcome to my portfolio! Here I have gathered some of the most important things I've done in computer graphics and game development. Take a look:)
 
+# Contact information
+Email: ericat@telia.com
+
+Links: [LinkedIn](https://www.linkedin.com/in/erica-tjernell-566669140/)
+
 # VR asymetric collaboration maze game in Unity: "Hedged-in"
 Together with a team, I created this asymetric collaboration VR game. The person in VR needs to escape from the maze, and their partner needs to guide them out by opening and closing certain walls, luring away monsters, and guiding their partner through the maze. I was in charge of creating the hedge, which I did using shell texturing, with a custom shader. For this project we used Unity URP. My shader used GPU instancing to group the shells together and increase peformance.  
 ![image](https://github.com/user-attachments/assets/1e5d1228-fbe2-4cae-94b9-55cf45613baa)
