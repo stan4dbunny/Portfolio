@@ -17,7 +17,7 @@ I have created my own custom raytracer with bounce lighting. For this project, I
 <img width="800" height = "500" src="https://github.com/user-attachments/assets/8c05efb1-ee02-4f91-bbda-47a7807b0840">
 
 # Bachelor's thesis: ["Comparison between Smoothed-Particle Hydrodynamics and Position Based Dynamics for real-time water simulation"](https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-335984)
-My bachelor's thesis was centered around comparing two implementations of two particle-based fluid simulations, in regard to performance and stability. 
+My bachelor's thesis was centered around comparing two implementations of two particle-based fluid simulations, in regard to performance and stability. We translated existing implementations into Unity to make a more valid comparison.
 ![image3](https://github.com/user-attachments/assets/388f33b4-fe1b-4415-a4a9-2237eb813a0c)
 
 # Global game jam: ["Gaia Complex: Unstable Core"](https://v3.globalgamejam.org/2023/games/untitled-0)
