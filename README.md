@@ -9,7 +9,8 @@ Links: [LinkedIn](https://www.linkedin.com/in/erica-tjernell-566669140/)
 Together with a team, I created this asymetric collaboration VR game. The person in VR needs to escape from the maze, and their partner needs to guide them out by opening and closing certain walls, luring away monsters, and guiding their partner through the maze. I was in charge of creating the hedge, which I did using shell texturing, with a custom shader. For this project we used Unity URP. My shader used GPU instancing to group the shells together and increase peformance.  
 ![image](https://github.com/user-attachments/assets/1e5d1228-fbe2-4cae-94b9-55cf45613baa)
 ![image](https://github.com/user-attachments/assets/e746166c-9854-4e04-89b5-c20e9a1aeedd)
-![image](https://github.com/user-attachments/assets/891ebfe1-e767-4ef7-9267-e0c34d6c25a6)
+![hedge](https://github.com/user-attachments/assets/fd9e75f7-2d38-411d-a4b9-3386dfe8a379)
+
 
 # Shell texturing bunny
 I have also used shell texturing for rendering fur with the Blinn-Phong shading model, but I would like to use a more sophisticated shading model in the future. Currently, the strands will not shade eachother, which would improve the look. Additionally, in real life hairs are slightly transparent which can have effects such as subsurface scattering. This would be cool to implement as well.
