@@ -1,4 +1,4 @@
-Hello, my name is Erica and I'm a master student in computer science with specialisation in computer graphics and visualisation at KTH Royal Institute of Technology. Welcome to my portfolio! Here I have gathered some of the most important things I've done in computer graphics and game development. Take a look:)
+Hello, my name is Erica and I'm a master student in computer science with specialisation in computer graphics and visualisation at KTH Royal Institute of Technology. I am proficient in Unity and C#, and I know C++ as well as Java and Python. Welcome to my portfolio! Here I have gathered some of the most important things I've done in computer graphics and game development. Take a look:)
 
 # Contact information
 Email: ericat@telia.com
