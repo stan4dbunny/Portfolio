@@ -6,7 +6,7 @@ Email: ericat@telia.com
 Links: [LinkedIn](https://www.linkedin.com/in/erica-tjernell-566669140/)
 
 # VR asymetric collaboration maze game in Unity: "Hedged-in"
-Together with a team, I created this asymetric collaboration VR game. The person in VR needs to escape from the maze, and their partner needs to guide them out by opening and closing certain walls, luring away monsters, and guiding their partner through the maze. I was in charge of creating the hedge, which I did using shell texturing, with a custom shader using HLSL and C#. For this project we used Unity URP. My shader used GPU instancing to group the shells together and increase peformance.  
+Together with a team, I created this asymetric collaboration VR game. The person in VR needs to escape from the maze, and their partner needs to guide them out by opening and closing certain walls, luring away monsters, and guiding their partner through the maze. I was in charge of creating the hedge, which I did using shell texturing, with a custom shader using HLSL and C#. For this project we used Unity URP. My shader used GPU instancing to group the shells together and increase peformance. It was interesting to consider the difference that arises with shader programming and performance that comes with VR development.
 ![image](https://github.com/user-attachments/assets/1e5d1228-fbe2-4cae-94b9-55cf45613baa)
 ![image](https://github.com/user-attachments/assets/e746166c-9854-4e04-89b5-c20e9a1aeedd)
 ![hedge](https://github.com/user-attachments/assets/fd9e75f7-2d38-411d-a4b9-3386dfe8a379)
@@ -26,7 +26,7 @@ My bachelor's thesis was centered around comparing two implementations of two pa
 ![image3](https://github.com/user-attachments/assets/388f33b4-fe1b-4415-a4a9-2237eb813a0c)
 
 # Global game jam: ["Gaia Complex: Unstable Core"](https://v3.globalgamejam.org/2023/games/untitled-0)
-We created a 2D platformer inspired by Celeste, where the user can jump around and use a grappling hook to evade obstacles and the ever-growing vines that trail after you. My contribition was mostly the movement of the player. 
+With a team during 48 hours, I created a 2D platformer inspired by Celeste, where the user can jump around and use a grappling hook to evade obstacles and the ever-growing vines that trail after you. My contribition was mostly the movement of the player, such as the jumping and walking. This made me appreciate all the games I've played where I had taken the intuitive and good movement for granted. It was an interesting and fun experience! 
 ![gaia](https://github.com/user-attachments/assets/441f2ad9-bd75-4417-a48c-2869565931db)
 
 
