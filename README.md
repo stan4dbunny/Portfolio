@@ -29,7 +29,6 @@ https://github.com/user-attachments/assets/dcef07fb-104c-45a7-8d6f-20203f5b9a8d
 My bachelor's thesis was centered around comparing two implementations of two particle-based fluid simulations, in regard to performance and stability. We translated existing implementations into Unity to make a more valid comparison.
 ![image3](https://github.com/user-attachments/assets/388f33b4-fe1b-4415-a4a9-2237eb813a0c)
 
-![test](Assets/PBD_OneWayNarrow.mp4)
 
 # Global game jam: ["Gaia Complex: Unstable Core"](https://v3.globalgamejam.org/2023/games/untitled-0)
 With a team during 48 hours, I created a 2D platformer inspired by Celeste, where the user can jump around and use a grappling hook to evade obstacles and the ever-growing vines that trail after you. My contribition was mostly the movement of the player, such as the jumping and walking. This made me appreciate all the games I've played where I had taken the intuitive and good movement for granted. It was an interesting and fun experience! 
