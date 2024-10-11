@@ -16,7 +16,7 @@ I have created my own custom raytracer with bounce lighting. For this project, I
 ![image](https://github.com/user-attachments/assets/39170875-df9f-41e6-83ee-001a97c0cf93)
 <img width="800px" src="https://github.com/user-attachments/assets/8c05efb1-ee02-4f91-bbda-47a7807b0840">
 
-# Shell texturing bunny
+# [Shell texturing bunny](https://stan4dbunny.github.io/Shell-Texturing/)
 I have also used shell texturing for rendering fur with the Blinn-Phong shading model, but I would like to use a more sophisticated shading model in the future. Currently, the strands will not shade each other, which would improve the look. Additionally, in real life hairs are slightly transparent which can have effects such as subsurface scattering. This would be cool to implement as well.
 <img width="700px" src="https://github.com/user-attachments/assets/f6228368-8caa-4f7b-9759-22f59c56419f">
 <img width="700px" src="https://github.com/user-attachments/assets/7f006e3a-7460-49d5-944c-dfd906205ac0">
