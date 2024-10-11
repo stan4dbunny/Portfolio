@@ -11,6 +11,10 @@ Together with a team, I created this asymetric collaboration VR game. The person
 ![image](https://github.com/user-attachments/assets/e746166c-9854-4e04-89b5-c20e9a1aeedd)
 ![hedge](https://github.com/user-attachments/assets/fd9e75f7-2d38-411d-a4b9-3386dfe8a379)
 
+
+https://github.com/user-attachments/assets/ac60e208-9acf-42e2-a05c-3adf6c71295c
+
+
 # Path/Raytracer in Unity
 I have created my own custom raytracer with bounce lighting. For this project, I used Unity and a custom shader. I also implemented a BVH to increase performance, and temporal accumulation to make it less noisy.
 ![image](https://github.com/user-attachments/assets/39170875-df9f-41e6-83ee-001a97c0cf93)
@@ -28,6 +32,11 @@ https://github.com/user-attachments/assets/dcef07fb-104c-45a7-8d6f-20203f5b9a8d
 # Bachelor's thesis: ["Comparison between Smoothed-Particle Hydrodynamics and Position Based Dynamics for real-time water simulation"](https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-335984)
 My bachelor's thesis was centered around comparing two implementations of two particle-based fluid simulations, in regard to performance and stability. We translated existing implementations into Unity to make a more valid comparison.
 ![image3](https://github.com/user-attachments/assets/388f33b4-fe1b-4415-a4a9-2237eb813a0c)
+
+
+
+https://github.com/user-attachments/assets/0208ed69-8cb2-4cd2-98b9-3b3665c8c9a6
+
 
 
 # Global game jam: ["Gaia Complex: Unstable Core"](https://v3.globalgamejam.org/2023/games/untitled-0)
