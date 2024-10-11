@@ -12,8 +12,6 @@ Together with a team, I created this asymetric collaboration VR game. The person
 ![hedge](https://github.com/user-attachments/assets/fd9e75f7-2d38-411d-a4b9-3386dfe8a379)
 
 
-https://github.com/user-attachments/assets/ac60e208-9acf-42e2-a05c-3adf6c71295c
-
 
 # Path/Raytracer in Unity
 I have created my own custom raytracer with bounce lighting. For this project, I used Unity and a custom shader. I also implemented a BVH to increase performance, and temporal accumulation to make it less noisy.
@@ -42,6 +40,10 @@ https://github.com/user-attachments/assets/0208ed69-8cb2-4cd2-98b9-3b3665c8c9a6
 # Global game jam: ["Gaia Complex: Unstable Core"](https://v3.globalgamejam.org/2023/games/untitled-0)
 With a team during 48 hours, I created a 2D platformer inspired by Celeste, where the user can jump around and use a grappling hook to evade obstacles and the ever-growing vines that trail after you. My contribition was mostly the movement of the player, such as the jumping and walking. This made me appreciate all the games I've played where I had taken the intuitive and good movement for granted. It was an interesting and fun experience! 
 ![gaia](https://github.com/user-attachments/assets/441f2ad9-bd75-4417-a48c-2869565931db)
+
+
+https://github.com/user-attachments/assets/70b39b4c-2b05-4ae0-9b2f-6a5ed2e2c535
+
 
 
 
