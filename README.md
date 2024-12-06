@@ -5,6 +5,11 @@ Email: ericat@telia.com
 
 Links: [LinkedIn](https://www.linkedin.com/in/erica-tjernell-566669140/)
 
+# Real-Time Volumetric Clouds in Unity
+Clouds made with the use of 3D noise textures and some shaders.
+
+<video src="https://github.com/user-attachments/assets/046378de-fa20-4f4d-af7d-751a9599a6f0" controls="controls" style="max-width: 100%;"></video>
+
 # VR asymetric collaboration maze game in Unity: "Hedged-in"
 Together with a team, I created this asymetric collaboration VR game. The person in VR needs to escape from the maze, and their partner needs to guide them out by opening and closing certain walls, and luring away monsters. I was in charge of creating the hedge, which I did using shell texturing, with a custom shader using HLSL and C#. For this project we used Unity URP. My shader used GPU instancing to group the shells together and increase peformance. It was interesting to consider the difference that arises with shader programming and performance that comes with VR development.
 ![image](https://github.com/user-attachments/assets/1e5d1228-fbe2-4cae-94b9-55cf45613baa)
@@ -30,12 +35,6 @@ My bachelor's thesis was centered around comparing two implementations of two pa
 
 
 <video src="https://github.com/user-attachments/assets/0208ed69-8cb2-4cd2-98b9-3b3665c8c9a6" controls="controls" style="max-width: 100%;"></video>
-
-# Global game jam: ["Gaia Complex: Unstable Core"](https://v3.globalgamejam.org/2023/games/untitled-0)
-With a team during 48 hours, I created a 2D platformer inspired by Celeste, where the user can jump around and use a grappling hook to evade obstacles and the ever-growing vines that trail after you. My contribition was mostly the movement of the player, such as the jumping and walking. This made me appreciate all the games I've played where I had taken the intuitive and good movement for granted. It was an interesting and fun experience! 
-![gaia](https://github.com/user-attachments/assets/441f2ad9-bd75-4417-a48c-2869565931db)
-
-<video src="https://github.com/user-attachments/assets/70b39b4c-2b05-4ae0-9b2f-6a5ed2e2c535" controls="controls" style="max-width: 100%;"></video>
 
 
 
