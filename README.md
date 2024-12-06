@@ -8,7 +8,11 @@ Links: [LinkedIn](https://www.linkedin.com/in/erica-tjernell-566669140/)
 # Real-Time Volumetric Clouds in Unity
 Clouds made with the use of 3D noise textures and some shaders.
 
-<video src="https://github.com/user-attachments/assets/046378de-fa20-4f4d-af7d-751a9599a6f0" controls="controls" style="max-width: 100%;"></video>
+<video src="https://github.com/user-attachments/assets/da2933bd-19d5-4eec-b2e3-bb64d31fe533" controls="controls" style="max-width: 100%;"></video>
+
+
+
+
 
 # VR asymetric collaboration maze game in Unity: "Hedged-in"
 Together with a team, I created this asymetric collaboration VR game. The person in VR needs to escape from the maze, and their partner needs to guide them out by opening and closing certain walls, and luring away monsters. I was in charge of creating the hedge, which I did using shell texturing, with a custom shader using HLSL and C#. For this project we used Unity URP. My shader used GPU instancing to group the shells together and increase peformance. It was interesting to consider the difference that arises with shader programming and performance that comes with VR development.
