@@ -1,4 +1,4 @@
-Hello, my name is Erica and I'm a master student in computer science with specialisation in computer graphics and visualisation at KTH Royal Institute of Technology. I am proficient in Unity and C#, and I know C++ as well as Java and Python. Welcome to my portfolio! Here I have gathered some of the most important things I've done in computer graphics and game development. Take a look:)
+Hello, my name is Erica and I'm a masters student in computer science with specialisation in computer graphics and visualisation at KTH Royal Institute of Technology. I am proficient in Unity and C#, and I know C++ as well as Java and Python. Welcome to my portfolio! Here I have gathered some of the most important things I've done in computer graphics and game development. Take a look:)
 
 # Contact information
 Email: ericat@telia.com
@@ -6,13 +6,10 @@ Email: ericat@telia.com
 Links: [LinkedIn](https://www.linkedin.com/in/erica-tjernell-566669140/)
 
 # Real-Time Volumetric Clouds in Unity
-Clouds made with the use of 3D noise textures and some shaders.
+I used a compute shader to put perlin and worley noise into a 3D texture, and a shader to sample from them to create volumetric clouds.
+![image](https://github.com/user-attachments/assets/f161795a-c945-409f-b164-b75282afb6d8)
 
-<video src="https://github.com/user-attachments/assets/da2933bd-19d5-4eec-b2e3-bb64d31fe533" controls="controls" style="max-width: 100%;"></video>
-
-
-
-
+<video src="https://github.com/user-attachments/assets/47225614-700a-44d9-8932-bf2bd21ad17a" controls="controls" style="max-width: 100%;"></video>
 
 # VR asymetric collaboration maze game in Unity: "Hedged-in"
 Together with a team, I created this asymetric collaboration VR game. The person in VR needs to escape from the maze, and their partner needs to guide them out by opening and closing certain walls, and luring away monsters. I was in charge of creating the hedge, which I did using shell texturing, with a custom shader using HLSL and C#. For this project we used Unity URP. My shader used GPU instancing to group the shells together and increase peformance. It was interesting to consider the difference that arises with shader programming and performance that comes with VR development.
