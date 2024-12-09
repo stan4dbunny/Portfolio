@@ -1,4 +1,4 @@
-Hello, my name is Erica and I'm a masters student in computer science with specialisation in computer graphics and visualisation at KTH Royal Institute of Technology. I am proficient in Unity and C#, and I know C++ as well as Java and Python. Welcome to my portfolio! Here I have gathered some of the most important things I've done in computer graphics and game development. Take a look:)
+Hello, my name is Erica and I'm a masters student in computer science with specialisation in computer graphics and visualisation at KTH Royal Institute of Technology. Most of my projects are in Unity using C# and HLSL, but I have also worked with C++ as well as Java and Python. Welcome to my portfolio! Here I have gathered some of the most important things I've done in computer graphics and game development. Take a look:)
 
 # Contact information
 Email: ericat@telia.com
@@ -6,7 +6,7 @@ Email: ericat@telia.com
 Links: [LinkedIn](https://www.linkedin.com/in/erica-tjernell-566669140/)
 
 # Real-Time Volumetric Clouds in Unity
-I used a compute shader to put perlin and worley noise into a 3D texture, and a shader to sample from them to create volumetric clouds.
+I made these clouds for a sailing game. The clouds are based on [Real-time rendering of volumetric clouds](https://www.diva-portal.org/smash/get/diva2:1223894/FULLTEXT01.pdf) by Fredrik Häggström, which is based on the work of Andrew Schneider for Horizon Forbidden West. The volume is evaluated through ray-marching. Some lighting phenomena are considered such as silver living, through the Henyey-Greenstein phase function and attenuation using Beer's law. 
 ![image](https://github.com/user-attachments/assets/f161795a-c945-409f-b164-b75282afb6d8)
 
 <video src="https://github.com/user-attachments/assets/47225614-700a-44d9-8932-bf2bd21ad17a" controls="controls" style="max-width: 100%;"></video>
