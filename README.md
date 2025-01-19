@@ -6,7 +6,7 @@ Email: ericat@telia.com
 Links: [LinkedIn](https://www.linkedin.com/in/erica-tjernell-566669140/)
 
 # Real-Time Volumetric Clouds in Unity
-I made these clouds for a sailing game. The clouds are based on [Real-time rendering of volumetric clouds](https://www.diva-portal.org/smash/get/diva2:1223894/FULLTEXT01.pdf) by Fredrik Häggström, which is based on the work of Andrew Schneider for Horizon Forbidden West. The volume is evaluated through ray-marching. Some lighting phenomena are considered such as silver lining, through the Henyey-Greenstein phase function and attenuation using Beer's law. 
+I made these clouds for a sailing game. The clouds are based on [Real-time rendering of volumetric clouds](https://www.diva-portal.org/smash/get/diva2:1223894/FULLTEXT01.pdf) by Fredrik Häggström, which is based on the work of Andrew Schneider for Horizon Forbidden West. The volume is evaluated through ray-marching. Some lighting phenomena are considered such as silver lining, through the Henyey-Greenstein phase function, and attenuation using Beer's law. 
 ![image](https://github.com/user-attachments/assets/f161795a-c945-409f-b164-b75282afb6d8)
 
 <video src="https://github.com/user-attachments/assets/47225614-700a-44d9-8932-bf2bd21ad17a" controls="controls" style="max-width: 100%;"></video>
