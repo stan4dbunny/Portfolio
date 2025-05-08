@@ -6,7 +6,7 @@ Email: ericat@telia.com
 Links: [LinkedIn](https://www.linkedin.com/in/erica-tjernell-566669140/)
 
 # Master thesis: Exploring global illumination with radiance caching and glossy reflections
-Using AMD's graphics testing framework [Capsaicin](https://github.com/GPUOpen-LibrariesAndSDKs/Capsaicin) (C++ and HLSL), I've been exploring [GI-1.1](https://gpuopen.com/download/publications/SA2023_RealTimeReflection.pdf) and looking into improving the infinite bounce lighting approximation with the goal to improve the glossy reflections in particular. It's been really interesting and challenging due to the complicated nature of GI.  
+Using AMD's graphics testing framework [Capsaicin](https://github.com/GPUOpen-LibrariesAndSDKs/Capsaicin) (C++ and GLSL), I've been exploring [GI-1.1](https://gpuopen.com/download/publications/SA2023_RealTimeReflection.pdf) and looking into improving the infinite bounce lighting approximation with the goal to improve the glossy reflections in particular. It's been really interesting and challenging due to the complicated nature of GI.  
 
 ![image](https://github.com/user-attachments/assets/e0e0e0cf-7012-421c-911b-62be14933aa8)
 
