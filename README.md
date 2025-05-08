@@ -1,13 +1,14 @@
-Hello, my name is Erica and I'm a masters student (soon to gratuate!) in computer science with specialisation in computer graphics and visualisation at KTH Royal Institute of Technology. I've worked with C++, Unity using C# and HLSL, as well as Java and Python. Welcome to my portfolio! Here I have gathered some of the most important things I've done in computer graphics and game development. Take a look:)
+Hello, my name is Erica and I'm a master student (soon to gratuate!) in computer science with specialisation in computer graphics and visualization at KTH Royal Institute of Technology. I've worked with C++, Unity using C# and HLSL, as well as Java and Python. Welcome to my portfolio! Here I have gathered some of the most important things I've done in computer graphics and game development. Take a look:)
 
 # Contact information
 Email: ericat@telia.com
 
 Links: [LinkedIn](https://www.linkedin.com/in/erica-tjernell-566669140/)
 
-# Master thesis : Exploring global illumination with radiance caching and glossy reflections
+# Master thesis: Exploring global illumination with radiance caching and glossy reflections
 Using AMD's graphics testing framework [Capsaicin](https://github.com/GPUOpen-LibrariesAndSDKs/Capsaicin) (C++ and HLSL), I've been exploring [GI-1.1](https://gpuopen.com/download/publications/SA2023_RealTimeReflection.pdf) and looking into improving the infinite bounce lighting approximation with the goal to improve the glossy reflections in particular. It's been really interesting and challenging due to the complicated nature of GI.  
 
+![image](https://github.com/user-attachments/assets/e0e0e0cf-7012-421c-911b-62be14933aa8)
 
 # Real-Time Volumetric Clouds in Unity
 I made these clouds for a sailing game. The clouds are based on [Real-time rendering of volumetric clouds](https://www.diva-portal.org/smash/get/diva2:1223894/FULLTEXT01.pdf) by Fredrik Häggström, which is based on the work of Andrew Schneider for Horizon Forbidden West. The volume is evaluated through ray-marching. Some lighting phenomena are considered such as silver lining, through the Henyey-Greenstein phase function, and attenuation using Beer's law. 
@@ -18,8 +19,6 @@ I made these clouds for a sailing game. The clouds are based on [Real-time rende
 # VR asymetric collaboration maze game in Unity: "Hedged-in"
 Together with a team, I created this asymetric collaboration VR game. The person in VR needs to escape from the maze, and their partner needs to guide them out by opening and closing certain walls, and luring away monsters. I was in charge of creating the hedge, which I did using shell texturing, with a custom shader using HLSL and C#. For this project we used Unity URP. My shader used GPU instancing to group the shells together and increase peformance. It was interesting to consider the difference that arises with shader programming and performance that comes with VR development.
 ![image](https://github.com/user-attachments/assets/1e5d1228-fbe2-4cae-94b9-55cf45613baa)
-![image](https://github.com/user-attachments/assets/e746166c-9854-4e04-89b5-c20e9a1aeedd)
-![hedge](https://github.com/user-attachments/assets/fd9e75f7-2d38-411d-a4b9-3386dfe8a379)
 
 # Path/Raytracer in Unity
 I have created my own custom raytracer with bounce lighting. For this project, I used Unity and a custom shader. I also implemented a BVH to increase performance, and temporal accumulation to make it less noisy.
@@ -32,7 +31,6 @@ I have also used shell texturing for rendering fur with the Blinn-Phong shading 
 <img width="700px" src="https://github.com/user-attachments/assets/7f006e3a-7460-49d5-944c-dfd906205ac0">
 
 <video src="https://github.com/user-attachments/assets/dcef07fb-104c-45a7-8d6f-20203f5b9a8d" controls="controls" style="max-width: 100%;"></video>
-
 
 # Bachelor's thesis: ["Comparison between Smoothed-Particle Hydrodynamics and Position Based Dynamics for real-time water simulation"](https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-335984)
 My bachelor's thesis was centered around comparing two implementations of two particle-based fluid simulations, in regard to performance and stability. We translated existing implementations into Unity to make a more valid comparison.
