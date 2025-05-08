@@ -20,7 +20,7 @@ I made these clouds for a sailing game. The clouds are based on [Real-time rende
 Together with a team, I created this asymetric collaboration VR game. The person in VR needs to escape from the maze, and their partner needs to guide them out by opening and closing certain walls, and luring away monsters. I was in charge of creating the hedge, which I did using shell texturing, with a custom shader using HLSL and C#. For this project we used Unity URP. My shader used GPU instancing to group the shells together and increase peformance. It was interesting to consider the difference that arises with shader programming and performance that comes with VR development.
 ![image](https://github.com/user-attachments/assets/1e5d1228-fbe2-4cae-94b9-55cf45613baa)
 
-# Path/Raytracer in Unity
+# Path-tracer in Unity
 I have created my own custom raytracer with bounce lighting. For this project, I used Unity and a custom shader. I also implemented a BVH to increase performance, and temporal accumulation to make it less noisy.
 ![image](https://github.com/user-attachments/assets/39170875-df9f-41e6-83ee-001a97c0cf93)
 <img width="800px" src="https://github.com/user-attachments/assets/8c05efb1-ee02-4f91-bbda-47a7807b0840">
