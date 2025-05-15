@@ -9,10 +9,10 @@ Links: [LinkedIn](https://www.linkedin.com/in/erica-tjernell-566669140/)
 Using AMD's graphics testing framework [Capsaicin](https://github.com/GPUOpen-LibrariesAndSDKs/Capsaicin) (C++ and GLSL), I've been exploring [GI-1.1](https://gpuopen.com/download/publications/SA2023_RealTimeReflection.pdf) and looking into improving the infinite bounce lighting approximation with the goal to improve the glossy reflections in particular. 
 
 ![image](https://github.com/user-attachments/assets/e0e0e0cf-7012-421c-911b-62be14933aa8)
-A screenshot from AMD's GI in the Capsaicin engine with multibounce.
+A screenshot from AMD's GI in the Capsaicin engine with more bounces.
 
 # Real-Time Volumetric Clouds in Unity
-I made these clouds for a sailing game. The clouds are based on [Real-time rendering of volumetric clouds](https://www.diva-portal.org/smash/get/diva2:1223894/FULLTEXT01.pdf) by Fredrik Häggström, which is based on the work of Andrew Schneider for Horizon Forbidden West.
+I made these clouds for a sailing game. The clouds are based on [Real-time rendering of volumetric clouds](https://www.diva-portal.org/smash/get/diva2:1223894/FULLTEXT01.pdf) by Fredrik Häggström, which is based on the work of Andrew Schneider for Horizon Forbidden West. Things I did in the project:
 * Created 3D noise textures with Perlin and Worley noise using a compute shader
 * Implemented ray-marching in a shader to step through the cloud, at each step evaluating the density from the noise tetxure, as well marching a ray towards the sun
 * Considered real-life lighting phenomena such as in/out scattering with the Henyey-Greenstein phase function, and attentuation using Beer's law
@@ -32,7 +32,7 @@ Together with a team, I created this asymetric collaboration VR game. The person
 A picture of a play test of the game. Although it's a bit blurry, the hedge and the shell texturing which gives it its bushy look can be seen on the TV screen. 
 
 # [Shell texturing bunny](https://stan4dbunny.github.io/Shell-Texturing/)
-I have also used shell texturing to create fur. Click the link above if you want to read more about it and try out the interactive demo! Some features include:
+I have also used shell texturing to create fur. Click the link above if you want to read more about it and try out the interactive demo! The project included:
 * Fur placement and length based on grayscale texture created in Blender
 * Fur color based on any texture
 * Strands that move when the bunny moves through vertex displacement
@@ -55,15 +55,22 @@ I implemented a simple GPU path-tracer using a shader with:
 * An axis-aligned bounding volume hierarchy (BVH) to make ray traversal more efficient and improve performance
 * Temporal accumulation, denoising the render over time
 ![image](https://github.com/user-attachments/assets/39170875-df9f-41e6-83ee-001a97c0cf93)
+
+A screenshot of Cornell Box rendered with my path-tracer. Note the bounce-lighting.
+
 <img width="800px" src="https://github.com/user-attachments/assets/8c05efb1-ee02-4f91-bbda-47a7807b0840">
 
+A screenshot of how the BVH works.
+
 # Bachelor's thesis: ["Comparison between Smoothed-Particle Hydrodynamics and Position Based Dynamics for real-time water simulation"](https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-335984)
-My bachelor's thesis was centered around comparing two implementations of two particle-based fluid simulations, in regard to performance and stability. We translated existing implementations into Unity to make a more valid comparison.
+My bachelor's thesis was centered around comparing two implementations of two particle-based fluid simulations, in regard to performance and stability. With a partner, I ported existing implementations into Unity to make a more valid comparison.
 ![image3](https://github.com/user-attachments/assets/388f33b4-fe1b-4415-a4a9-2237eb813a0c)
 
+A screenshot from one of the simulations where water from two directions has crashed into each other. 
 
 <video src="https://github.com/user-attachments/assets/0208ed69-8cb2-4cd2-98b9-3b3665c8c9a6" controls="controls" style="max-width: 100%;"></video>
 
+A video of one of the simulations where it can be seen how water from two directions crashes into each other and dissipates.
 
 
 
