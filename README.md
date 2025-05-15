@@ -1,36 +1,61 @@
-Hello, my name is Erica and I'm a masters student (soon to gratuate!) in computer science with specialization in computer graphics and visualization at KTH Royal Institute of Technology. I've worked with C++, Unity using C# and HLSL, as well as Java and Python. Welcome to my portfolio! Here I have gathered some of the most important things I've done in computer graphics and game development. Take a look:)
+Hello, my name is Erica and I'm a master's student (soon to gratuate!) in computer science with specialization in computer graphics and visualization at KTH Royal Institute of Technology. I've worked with C++, Unity using C# and HLSL, as well as Java and Python. Welcome to my portfolio! I have gathered some of the most important things I've done in computer graphics and game development. Take a look:)
 
 # Contact information
 Email: ericat@telia.com
 
 Links: [LinkedIn](https://www.linkedin.com/in/erica-tjernell-566669140/)
 
-# Master thesis: Exploring global illumination with radiance caching and glossy reflections
-Using AMD's graphics testing framework [Capsaicin](https://github.com/GPUOpen-LibrariesAndSDKs/Capsaicin) (C++ and GLSL), I've been exploring [GI-1.1](https://gpuopen.com/download/publications/SA2023_RealTimeReflection.pdf) and looking into improving the infinite bounce lighting approximation with the goal to improve the glossy reflections in particular. It's been really interesting and challenging due to the complicated nature of GI.  
+# Master's thesis: Exploring global illumination with radiance caching and glossy reflections
+Using AMD's graphics testing framework [Capsaicin](https://github.com/GPUOpen-LibrariesAndSDKs/Capsaicin) (C++ and GLSL), I've been exploring [GI-1.1](https://gpuopen.com/download/publications/SA2023_RealTimeReflection.pdf) and looking into improving the infinite bounce lighting approximation with the goal to improve the glossy reflections in particular. 
 
 ![image](https://github.com/user-attachments/assets/e0e0e0cf-7012-421c-911b-62be14933aa8)
+A screenshot from AMD's GI in the Capsaicin engine with multibounce.
 
 # Real-Time Volumetric Clouds in Unity
-I made these clouds for a sailing game. The clouds are based on [Real-time rendering of volumetric clouds](https://www.diva-portal.org/smash/get/diva2:1223894/FULLTEXT01.pdf) by Fredrik Häggström, which is based on the work of Andrew Schneider for Horizon Forbidden West. The volume is evaluated through ray-marching. Some lighting phenomena are considered such as silver lining, through the Henyey-Greenstein phase function, and attenuation using Beer's law. 
+I made these clouds for a sailing game. The clouds are based on [Real-time rendering of volumetric clouds](https://www.diva-portal.org/smash/get/diva2:1223894/FULLTEXT01.pdf) by Fredrik Häggström, which is based on the work of Andrew Schneider for Horizon Forbidden West.
+* Created 3D noise textures with Perlin and Worley noise using a compute shader
+* Implemented ray-marching in a shader to step through the cloud, at each step evaluating the density from the noise tetxure, as well marching a ray towards the sun
+* Considered real-life lighting phenomena such as in/out scattering with the Henyey-Greenstein phase function, and attentuation using Beer's law
+* Did a parameter study where I varied the step size to balance visual quality and performance
 ![image](https://github.com/user-attachments/assets/f161795a-c945-409f-b164-b75282afb6d8)
-
+A screenshot of the clouds with "maximal" visual quality settings
 <video src="https://github.com/user-attachments/assets/47225614-700a-44d9-8932-bf2bd21ad17a" controls="controls" style="max-width: 100%;"></video>
+A video showcasing the clouds with a day-and-night cycle to show how the light affects the clouds.
 
 # VR asymetric collaboration maze game in Unity: "Hedged-in"
-Together with a team, I created this asymetric collaboration VR game. The person in VR needs to escape from the maze, and their partner needs to guide them out by opening and closing certain walls, and luring away monsters. I was in charge of creating the hedge, which I did using shell texturing, with a custom shader using HLSL and C#. For this project we used Unity URP. My shader used GPU instancing to group the shells together and increase peformance. It was interesting to consider the difference that arises with shader programming and performance that comes with VR development.
-![image](https://github.com/user-attachments/assets/1e5d1228-fbe2-4cae-94b9-55cf45613baa)
+Together with a team, I created this asymetric collaboration VR game. The person in VR needs to escape from the maze, and their partner needs to guide them out by opening and closing certain walls, and luring away monsters. In this project I focused on creating the material for the hedge with shell texturing.
 
-# Path-tracer in Unity
-I have created my own custom raytracer with bounce lighting. For this project, I used Unity and a custom shader. I also implemented a BVH to increase performance, and temporal accumulation to make it less noisy.
-![image](https://github.com/user-attachments/assets/39170875-df9f-41e6-83ee-001a97c0cf93)
-<img width="800px" src="https://github.com/user-attachments/assets/8c05efb1-ee02-4f91-bbda-47a7807b0840">
+* Implemented GPU instancing to group the "shells" (layers) to improve performance
+* Adapted the shader to work for stereo rendering (VR)
+
+![image](https://github.com/user-attachments/assets/1e5d1228-fbe2-4cae-94b9-55cf45613baa)
+A picture of a play test of the game. Although it's a bit blurry, the hedge and the shell texturing which gives it its bushy look can be seen on the TV screen. 
 
 # [Shell texturing bunny](https://stan4dbunny.github.io/Shell-Texturing/)
-I have also used shell texturing for rendering fur with the Blinn-Phong shading model, but I would like to use a more sophisticated shading model in the future. Currently, the strands will not shade each other, which would improve the look. Additionally, in real life hairs are slightly transparent which can have effects such as subsurface scattering. This would be cool to implement as well.
+I have also used shell texturing to create fur. Click the link above if you want to read more about it and try out the interactive demo! Some features include:
+* Fur placement and length based on grayscale texture created in Blender
+* Fur color based on any texture
+* Strands that move when the bunny moves through vertex displacement
+* Blinn-Phong shading
+* Simple controls to move and rotate bunny
 <img width="700px" src="https://github.com/user-attachments/assets/f6228368-8caa-4f7b-9759-22f59c56419f">
+
+A screenshot of a bunny with shell textured fur. Note the lack of fur on the eyes and in the ears. 
+
 <img width="700px" src="https://github.com/user-attachments/assets/7f006e3a-7460-49d5-944c-dfd906205ac0">
 
+A screenshot where the layered nature of the technique is visible.
+
 <video src="https://github.com/user-attachments/assets/dcef07fb-104c-45a7-8d6f-20203f5b9a8d" controls="controls" style="max-width: 100%;"></video>
+
+A video from the interactive demo where it can be seen that the fur strands move when the bunny is moved back and forth. 
+
+# Path-tracer in Unity
+I implemented a simple GPU path-tracer using a shader with:
+* An axis-aligned bounding volume hierarchy (BVH) to make ray traversal more efficient and improve performance
+* Temporal accumulation, denoising the render over time
+![image](https://github.com/user-attachments/assets/39170875-df9f-41e6-83ee-001a97c0cf93)
+<img width="800px" src="https://github.com/user-attachments/assets/8c05efb1-ee02-4f91-bbda-47a7807b0840">
 
 # Bachelor's thesis: ["Comparison between Smoothed-Particle Hydrodynamics and Position Based Dynamics for real-time water simulation"](https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-335984)
 My bachelor's thesis was centered around comparing two implementations of two particle-based fluid simulations, in regard to performance and stability. We translated existing implementations into Unity to make a more valid comparison.
