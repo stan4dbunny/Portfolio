@@ -7,14 +7,17 @@ Links: [LinkedIn](https://www.linkedin.com/in/erica-tjernell-566669140/)
 
 # Master's thesis: Exploring global illumination with radiance caching and glossy reflections
 Using AMD's graphics testing framework [Capsaicin](https://github.com/GPUOpen-LibrariesAndSDKs/Capsaicin) (C++ and GLSL), I've been exploring [GI-1.1](https://gpuopen.com/download/publications/SA2023_RealTimeReflection.pdf) and looking into improving the infinite bounce lighting approximation with the goal to improve the glossy reflections in particular. I call their original implementation singlebounce, and the improved version multibounce. 
-* Worked with a codebase with existing probe-based GI implementation, using compute shaders and with support for hardware ray-tracing
+* Worked with a codebase with existing probe-based GI implementation with support for hardware ray-tracing
 * Communicated with AMD about getting access to a work-in-progress version of multibounce that I improved
 * Combined theory and application by taking the rendering equation into account when improving multibounce
-* Gotten used to working with PBR and path-tracing
+* Gotten used to working with PBR and path-tracing, and compute shaders
 * Created tool for debugging reflections by creating a reflection-only view in the path-tracer
 * Tested different scenes to evaluate the impact on visual quality of multibounce compared to singlebounce (with path-tracer as ground truth), using NVIDIA's FLIP
 ![GI-1 1 1_Multibounce_Sponza__Main_None__165_0 019582](https://github.com/user-attachments/assets/fe3eed69-af12-48e9-881b-d4f0bad96647)
 A screenshot from Capsaicin with the improved multibounce.
+
+<video src="https://github.com/user-attachments/assets/4b98fed8-2ff2-4a71-912f-c5593f627092" controls="controls" style="max-width: 100%;"></video>
+A video showing the difference between singlebounce and the improved multibounce.
 
 # Real-Time Volumetric Clouds in Unity
 I made these clouds for a sailing game. The clouds are based on [Real-time rendering of volumetric clouds](https://www.diva-portal.org/smash/get/diva2:1223894/FULLTEXT01.pdf) by Fredrik Häggström, which is based on the work of Andrew Schneider for Horizon Forbidden West. Things I did in the project:
