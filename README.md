@@ -22,8 +22,8 @@ A video showing the difference between singlebounce and the improved multibounce
 
 # Real-Time Volumetric Clouds in Unity
 I made these clouds for a sailing game. The clouds are based on [Real-time rendering of volumetric clouds](https://www.diva-portal.org/smash/get/diva2:1223894/FULLTEXT01.pdf) by Fredrik Häggström, which is based on the work of Andrew Schneider for Horizon Forbidden West. Things I did in the project:
-* Created 3D noise textures with Perlin and Worley noise using a compute shader
-* Implemented ray-marching in a shader to step through the cloud, at each step evaluating the density from the noise tetxure, as well marching a ray towards the sun
+* Created tool to easily create, view, debug, and update 3D noise texture assets using a compute shader and Unity's scripted importer feature
+* Implemented ray-marching in a shader for density evaluation and lighting contribution
 * Considered real-life lighting phenomena such as in/out scattering with the Henyey-Greenstein phase function, and attentuation using Beer's law
 * Did a parameter study where I varied the step size to balance visual quality and performance
 ![image](https://github.com/user-attachments/assets/f161795a-c945-409f-b164-b75282afb6d8)
