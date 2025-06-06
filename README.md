@@ -7,7 +7,7 @@ Links: [LinkedIn](https://www.linkedin.com/in/erica-tjernell-566669140/)
 
 # Master's thesis: Exploring global illumination with radiance caching and glossy reflections
 Using AMD's graphics testing framework [Capsaicin](https://github.com/GPUOpen-LibrariesAndSDKs/Capsaicin) (C++ and GLSL), I've been exploring [GI-1.1](https://gpuopen.com/download/publications/SA2023_RealTimeReflection.pdf) and looking into improving the infinite bounce lighting approximation with the goal to improve the glossy reflections in particular. I call their original implementation singlebounce, and the improved version multibounce. 
-* Worked with a codebase with existing probe-based GI implementation with support for hardware ray-tracing
+* Worked with a codebase with an existing probe-based GI implementation
 * Communicated with AMD about getting access to a work-in-progress version of multibounce that I improved
 * Combined theory and application by taking the rendering equation into account when improving multibounce
 * Gotten used to working with PBR and path-tracing, and compute shaders
