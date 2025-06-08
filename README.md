@@ -14,10 +14,10 @@ Using AMD's graphics testing framework [Capsaicin](https://github.com/GPUOpen-Li
 * Used PIX and RenderDoc for debugging
 * Created a tool for debugging reflections by creating a reflection-only view in the path-tracer
 * Tested different scenes to evaluate the impact on visual quality of multibounce compared to singlebounce (with path-tracer as ground truth), using NVIDIA's FLIP
-![GI-1 1 1_Multibounce_Sponza__Main_None__165_0 019582](https://github.com/user-attachments/assets/fe3eed69-af12-48e9-881b-d4f0bad96647)
+<img width="1000px" src="https://github.com/user-attachments/assets/fe3eed69-af12-48e9-881b-d4f0bad96647">
 A screenshot from Capsaicin with the improved multibounce.
 
-<video src="https://github.com/user-attachments/assets/4b98fed8-2ff2-4a71-912f-c5593f627092" controls="controls" style="max-width: 100%;"></video>
+<video width="1000px" src="https://github.com/user-attachments/assets/4b98fed8-2ff2-4a71-912f-c5593f627092" controls="controls" style="max-width: 100%;"></video>
 A video showing the difference between singlebounce and the improved multibounce.
 
 # Real-Time Volumetric Clouds in Unity URP
@@ -27,9 +27,9 @@ I made these clouds for a sailing game. The clouds are based on [Real-time rende
 * Implemented ray-marching in a shader for density evaluation and lighting contribution
 * Considered real-life lighting phenomena such as in/out scattering with the Henyey-Greenstein phase function, and attentuation using Beer's law
 * Did a parameter study where I varied the step size to balance visual quality and performance
-![image](https://github.com/user-attachments/assets/f161795a-c945-409f-b164-b75282afb6d8)
+<img width="1000px" src="https://github.com/user-attachments/assets/f161795a-c945-409f-b164-b75282afb6d8">
 A screenshot of the clouds with "maximal" visual quality settings
-<video src="https://github.com/user-attachments/assets/47225614-700a-44d9-8932-bf2bd21ad17a" controls="controls" style="max-width: 100%;"></video>
+<video width="1000px" src="https://github.com/user-attachments/assets/47225614-700a-44d9-8932-bf2bd21ad17a" controls="controls" style="max-width: 100%;"></video>
 A video showcasing the clouds with a day-and-night cycle to show how the light affects the clouds.
 
 # VR asymetric collaboration maze game in Unity URP: "Hedged-in"
@@ -56,7 +56,7 @@ A screenshot of a bunny with shell textured fur. Note the lack of fur on the eye
 
 A screenshot where the layered nature of the technique is visible.
 
-<video src="https://github.com/user-attachments/assets/dcef07fb-104c-45a7-8d6f-20203f5b9a8d" controls="controls" style="max-width: 100%;"></video>
+<video width="700px" src="https://github.com/user-attachments/assets/dcef07fb-104c-45a7-8d6f-20203f5b9a8d" controls="controls" style="max-width: 100%;"></video>
 
 A video from the interactive demo where it can be seen that the fur strands move when the bunny is moved back and forth. 
 
@@ -64,7 +64,7 @@ A video from the interactive demo where it can be seen that the fur strands move
 I implemented a simple GPU path-tracer using a shader with:
 * An axis-aligned bounding volume hierarchy (BVH) to make ray traversal more efficient and improve performance
 * Temporal accumulation, denoising the render over time
-![image](https://github.com/user-attachments/assets/39170875-df9f-41e6-83ee-001a97c0cf93)
+<img width="800px" src="https://github.com/user-attachments/assets/39170875-df9f-41e6-83ee-001a97c0cf93">
 
 A screenshot of Cornell Box rendered with my path-tracer. Note the bounce-lighting.
 
