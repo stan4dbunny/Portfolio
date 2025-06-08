@@ -12,7 +12,7 @@ Using AMD's graphics testing framework [Capsaicin](https://github.com/GPUOpen-Li
 * Combined theory and application by taking the rendering equation into account when improving multibounce
 * Gotten used to working with PBR, path-tracing, and compute shaders
 * Used PIX and RenderDoc for debugging
-* Created tool for debugging reflections by creating a reflection-only view in the path-tracer
+* Created a tool for debugging reflections by creating a reflection-only view in the path-tracer
 * Tested different scenes to evaluate the impact on visual quality of multibounce compared to singlebounce (with path-tracer as ground truth), using NVIDIA's FLIP
 ![GI-1 1 1_Multibounce_Sponza__Main_None__165_0 019582](https://github.com/user-attachments/assets/fe3eed69-af12-48e9-881b-d4f0bad96647)
 A screenshot from Capsaicin with the improved multibounce.
