@@ -10,7 +10,7 @@ Using AMD's graphics testing framework [Capsaicin](https://github.com/GPUOpen-Li
 * Worked with a codebase with an existing probe-based GI implementation
 * Communicated with AMD about getting access to a work-in-progress version of multibounce that I improved
 * Combined theory and application by taking the rendering equation into account when improving multibounce
-* Gotten used to working with PBR and path-tracing, and compute shaders
+* Gotten used to working with PBR, path-tracing, and compute shaders
 * Used PIX and RenderDoc for debugging
 * Created tool for debugging reflections by creating a reflection-only view in the path-tracer
 * Tested different scenes to evaluate the impact on visual quality of multibounce compared to singlebounce (with path-tracer as ground truth), using NVIDIA's FLIP
@@ -20,8 +20,9 @@ A screenshot from Capsaicin with the improved multibounce.
 <video src="https://github.com/user-attachments/assets/4b98fed8-2ff2-4a71-912f-c5593f627092" controls="controls" style="max-width: 100%;"></video>
 A video showing the difference between singlebounce and the improved multibounce.
 
-# Real-Time Volumetric Clouds in Unity
+# Real-Time Volumetric Clouds in Unity URP
 I made these clouds for a sailing game. The clouds are based on [Real-time rendering of volumetric clouds](https://www.diva-portal.org/smash/get/diva2:1223894/FULLTEXT01.pdf) by Fredrik Häggström, which is based on the work of Andrew Schneider for Horizon Forbidden West. Things I did in the project:
+* Created the cloud feature as a custom render pass in Unity 
 * Created tool to easily create, view, debug, and update 3D noise texture assets using a compute shader and Unity's scripted importer feature
 * Implemented ray-marching in a shader for density evaluation and lighting contribution
 * Considered real-life lighting phenomena such as in/out scattering with the Henyey-Greenstein phase function, and attentuation using Beer's law
@@ -31,7 +32,7 @@ A screenshot of the clouds with "maximal" visual quality settings
 <video src="https://github.com/user-attachments/assets/47225614-700a-44d9-8932-bf2bd21ad17a" controls="controls" style="max-width: 100%;"></video>
 A video showcasing the clouds with a day-and-night cycle to show how the light affects the clouds.
 
-# VR asymetric collaboration maze game in Unity: "Hedged-in"
+# VR asymetric collaboration maze game in Unity URP: "Hedged-in"
 Together with a team, I created this asymetric collaboration VR game. The person in VR needs to escape from the maze, and their partner needs to guide them out by opening and closing certain walls, and luring away monsters. In this project I focused on creating the material for the hedge with shell texturing.
 
 * Implemented GPU instancing to group the "shells" (layers) to improve performance
