@@ -1,4 +1,4 @@
-Hello, my name is Erica and I'm a Rendering Engineer. I've worked with C++, Unity using C# and HLSL, as well as Java and Python. Welcome to my portfolio! I have gathered some of the most important things I've done in computer graphics and game development. Take a look:)
+Hello, my name is Erica and I'm a Rendering Engineer currently working at Toptracer. I've worked with C++, Unity using C# and HLSL, as well as Java and Python.
 
 # Contact information
 Email: ericat@telia.com
