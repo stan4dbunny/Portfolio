@@ -1,4 +1,4 @@
-My name is Erica and I'm a Rendering Engineer currently working at Toptracer with custom rendering pipelines! Before that, I completed my master's thesis on global illumination at DICE as a part of my studies at KTH Royal Institute of Technology.
+My name is Erica and I'm a Rendering Engineer currently working at Toptracer with custom rendering pipelines! Before that, I completed my master's thesis on global illumination at DICE/Frostbite as a part of my studies at KTH Royal Institute of Technology.
 
 # Contact information
 Email: ericat@telia.com
