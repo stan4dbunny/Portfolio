@@ -6,9 +6,7 @@ Email: ericat@telia.com
 Links: [LinkedIn](https://www.linkedin.com/in/erica-tjernell-566669140/)
 
 # [Multibounce: Reducing Energy Loss in Two-Level Radiance Caching for Global Illumination](https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-367822)
-For my master's thesis, I worked on improving the infinite bounce lighting approximation in [AMD GI-1.1](https://gpuopen.com/learn/gi-1-1-glossy-reflection-rendering/), with the goal to improve the glossy reflections in particular. The work I did was added to GI-1.2 and I was given the opportunity to write a blog post about the feature on [GPUOpen](https://gpuopen.com/learn/gi-1-2-multibounce-indirect-rendering/).
-* Physically based rendering, compute shaders
-* PIX and RenderDoc for debugging
+For my master's thesis, I worked on improving the infinite bounce lighting approximation in [AMD GI-1.1](https://gpuopen.com/learn/gi-1-1-glossy-reflection-rendering/), with the goal to improve the glossy reflections in particular. The work I did was added to GI-1.2 and I was given the opportunity to write a [blog post](https://gpuopen.com/learn/gi-1-2-multibounce-indirect-rendering/) about the feature on GPUOpen.
 
 <img width="1000px" src="https://github.com/user-attachments/assets/fe3eed69-af12-48e9-881b-d4f0bad96647">
 
